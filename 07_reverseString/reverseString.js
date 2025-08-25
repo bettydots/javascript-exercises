@@ -1,4 +1,4 @@
-const reverseString = function(string) {
+const reverseString = function (string) {
   // Old Solution
   // let stringArr = string.split("")
   // let reverseArr = []
@@ -6,9 +6,9 @@ const reverseString = function(string) {
   //   reverseArr.push(stringArr.at(i - 1))
   // }
   // return reverseArr.join("")
-  return string.split("").reverse().join("")
+  return string.split("").reverse().join("");
 };
-console.log(reverseString("Hello"))
+console.log(reverseString("Hello"));
 
 // Do not edit below this line
 module.exports = reverseString;
